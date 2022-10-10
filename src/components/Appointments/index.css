@@ -1,0 +1,77 @@
+/* Write your CSS here */
+
+.background {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.box {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 50px;
+  max-width: 80%;
+}
+
+.head {
+  color: #171f46;
+}
+
+.mainBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+}
+
+.titleInput {
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+.but {
+  background-color: #8b5cf6;
+  color: white;
+  border-radius: 12px;
+  border: none;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.leftBox {
+  margin-right: 150px;
+}
+
+.bottomHead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.but1 {
+  background-color: transparent;
+  border-radius: 12px;
+  color: #9897f0;
+  border-color: #9897f0;
+  height: 30px;
+  width: 120px;
+}
+
+.ulContainer {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
